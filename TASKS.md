@@ -16,12 +16,21 @@ with a short summary and manual test notes.
 - [ ] Progress chart: CI and CVAI across visits (line chart)
 - [ ] Scans: upload scan file to Storage, attach metadata to a visit
 
-## Phase 3 — Production & scheduling
+## Phase 3 — Helmet design pipeline (core)
+- [ ] Mesh processing: import STL/OBJ scan, cleanup, head alignment
+- [ ] Auto measurements from mesh: length/width → CI, diagonals → CVAI
+- [ ] Target shape: corrected-shape generation from clinician-set goals
+- [ ] Shell design: growth-room offset, wall thickness, trim line,
+      ventilation holes, strap placement
+- [ ] Design versions: `designs` table migration, clinician approve flow
+- [ ] Export: watertight STL export for 3D printing / milling
+
+## Phase 4 — Production & scheduling
 - [ ] Helmets: status pipeline board (designed → in production → fitted →
       delivered → adjusted), status change history
 - [ ] Appointments: calendar list, create/reschedule/cancel, visit notes
 
-## Phase 4 — Hardening
+## Phase 5 — Hardening
 - [ ] Per-role RLS policies (replace the starter "authenticated" policies)
 - [ ] Input validation and audit fields (created_by / updated_at triggers)
 - [ ] Backup/export: patient timeline PDF export for the medical record
