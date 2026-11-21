@@ -1,0 +1,4 @@
+-- CranioCare seed notes
+-- Intentionally EMPTY of patient data: this repository must never contain
+-- real patient records. For local development, create test patients through
+-- the app UI with clearly fictional names (e.g. "Test Patient A").
