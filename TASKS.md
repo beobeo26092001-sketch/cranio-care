@@ -17,6 +17,9 @@ with a short summary and manual test notes.
 - [ ] Scans: upload scan file to Storage, attach metadata to a visit
 
 ## Phase 3 — Helmet design pipeline (core)
+- [x] Measurement core: CI/CVAI computation, classification bands and
+      deterministic triage rules (`src/lib/measurements.ts`,
+      `src/lib/triage.ts`) with unit tests
 - [ ] Mesh processing: import STL/OBJ scan, cleanup, head alignment
 - [ ] Auto measurements from mesh: length/width → CI, diagonals → CVAI
 - [ ] Target shape: corrected-shape generation from clinician-set goals
